@@ -8,7 +8,7 @@ public class leapyearchecker {
 			{
 				return true;
 			}
-			else if(x%4==0)
+			else if(x%4==0 && x%100!=0)
 			{
 				return true;
 			}
