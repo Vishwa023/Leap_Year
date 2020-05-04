@@ -48,4 +48,31 @@ class leapyearcheckertest {
 		
 		assertTrue(testObject.isLeapyear(100));
 	}
+	
+//	Now adding several test cases to chek my code and improve it
+	
+	@Test
+	void fourthtest() throws Exception{
+		
+		leapyearchecker testObject = new leapyearchecker();
+		
+		assertTrue(testObject.isLeapyear(2000));
+	}
+	
+	@Test
+	void fifthtest() throws Exception{
+		
+		leapyearchecker testObject = new leapyearchecker();
+		
+		assertTrue(testObject.isLeapyear(1800));
+	}
+	
+	@Test
+	void sixthtest() throws Exception{
+		
+		leapyearchecker testObject = new leapyearchecker();
+		
+		assertTrue(testObject.isLeapyear(2008));
+	}
+	
 }
