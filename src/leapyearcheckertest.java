@@ -25,7 +25,7 @@ class leapyearcheckertest {
 	@Test
 	void firsttest() throws Exception{
 		
-		leapyearchecker testObject = new leapyearchecker();
+		leapyearchecker testObject = new leapyearchecker(); 
 		
 		assertTrue(testObject.isLeapyear(3200));
 	}
