@@ -75,4 +75,36 @@ class leapyearcheckertest {
 		assertTrue(testObject.isLeapyear(2008));
 	}
 	
+	@Test
+	void seventhtest() throws Exception{
+		
+		leapyearchecker testObject = new leapyearchecker();
+		
+		assertTrue(testObject.isLeapyear(2020));
+	}
+	
+	@Test
+	void eighthtest() throws Exception{
+		
+		leapyearchecker testObject = new leapyearchecker();
+		
+		assertTrue(testObject.isLeapyear(1000));
+	}
+	
+	@Test
+	void ninethtes() throws Exception{
+		
+		leapyearchecker testObject = new leapyearchecker();
+		
+		assertTrue(testObject.isLeapyear(1005));
+	}
+	
+	@Test
+	void tenthtest() throws Exception{
+		
+		leapyearchecker testObject = new leapyearchecker();
+		
+		assertTrue(testObject.isLeapyear(2040));
+	}
+	
 }
