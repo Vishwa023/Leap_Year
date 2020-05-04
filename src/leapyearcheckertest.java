@@ -30,4 +30,13 @@ class leapyearcheckertest {
 		assertTrue(testObject.isLeapyear(3200));
 	}
 
+	
+//    checking for second testcase 32 for more improvement of code
+	@Test
+	void secondtest() throws Exception{
+		
+		leapyearchecker testObject = new leapyearchecker();
+		
+		assertTrue(testObject.isLeapyear(32));
+	}
 }
